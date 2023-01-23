@@ -1,0 +1,1 @@
+const firstName = 'Yaser', lastName = 'Ahmadi';
