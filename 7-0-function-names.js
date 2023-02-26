@@ -1,7 +1,7 @@
 // Function names should say what they do
-// Functions should be an action
+// Functions should be an action (Not Email, Handle)
 // Update, Delete, Add, Get, Is, Send, ...
-
+// Max 3 arguments
 
 // Bad
 function addToDate(date, month) {

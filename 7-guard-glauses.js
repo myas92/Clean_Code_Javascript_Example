@@ -30,7 +30,7 @@ sendEmail({
 
 
 // 2: Cleaner
-const sendEmail = ( to, subject, body ) => {
+const sendEmail = ( {to, subject, body} ) => {
     if (!to) return 'Please Enter a Recipient'
     // send email
 }

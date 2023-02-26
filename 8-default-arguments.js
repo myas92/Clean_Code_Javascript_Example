@@ -2,18 +2,18 @@
 
 
 // Bad
-function favoriteColor(color) {
+function getFavoriteColor(color) {
     let selectedColor = color || "blue"
     //
     return selectedColor;
 }
-console.log(favoriteColor("red"))
+console.log(getFavoriteColor("red"))
 
 
 // Good
 
-function favoriteColor(color = "blue") {
+function getFavoriteColor(color = "blue") {
     //
     return color;
 }
-console.log(favoriteColor("red"));
+console.log(getFavoriteColor("red"));

@@ -1,4 +1,5 @@
 // Write Liner Code
+// Liner code is better than nested code
 
 
 // Bad

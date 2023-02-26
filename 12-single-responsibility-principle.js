@@ -14,6 +14,7 @@ function processEmailUsers(users) {
 
 // Good
 
+// True or False
 function isUserEmailNotification(user) {
     const userRecord = database.lookup(user);
     return userRecord.isEmailNotification()
@@ -21,5 +22,5 @@ function isUserEmailNotification(user) {
 
 function processEmailUsers(users) {
     users.filter(isUserEmailNotification)
-        .forEach(sendEmail(user))
+        .forEach(sendEmail)
 }

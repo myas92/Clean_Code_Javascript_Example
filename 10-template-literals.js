@@ -3,7 +3,7 @@
 //Bad
 const firstName = "Yaser", lastName = "Ahmadi";
 
-const greeting = "Hello " + firstName + " " + lastName
+const greeting = "Hello " + firstName + " " + lastName;
 
 
 // Good
@@ -12,4 +12,4 @@ const greeting = "Hello " + firstName + " " + lastName
 
 const firstName = "Yaser", lastName = "Ahmadi";
 
-const greeting = `Hello ${firstName} ${lastName}`
+const greeting = `Hello ${firstName} ${lastName}`;

@@ -1,5 +1,5 @@
 // Conditional Shorthand
-
+// use exclamation !
 // Bad
 if (isAdmin === true) {
     // Do something
