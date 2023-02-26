@@ -7,4 +7,5 @@ https://github.com/ryanmcdermott/clean-code-javascript
 https://github.com/ryanmcdermott/3rs-of-software-architecture
 
 
-# python: https://github.com/zedr/clean-code-python
+# python: 
+https://github.com/zedr/clean-code-python

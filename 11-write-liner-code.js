@@ -18,3 +18,5 @@ const sharePost = async () => {
     const tweet = await sendTweet(post.url, `This is an awesome title`);
     console.log('Tweet Tweeted');
 }
+
+
