@@ -26,7 +26,7 @@ let ca = 5;
 let y = new Date().getFullYear();
 const yyyymmdstr = moment().format("YYYY/MM/DD");
 let fs;
-if (cart.total > 5) {
+if (cart.total > 50) {
     fs = true;
 }
 
@@ -36,7 +36,6 @@ const FREE_SHIPPING_MIN_PRICE = 50;
 let daysCartActive = 5;
 let currentYear = new Date().getFullYear();
 const currentDate = moment().format("YYYY/MM/DD");
-let freeShipping;
 const isFreeShipping = cart.total > FREE_SHIPPING_MIN_PRICE; 
 
 // ***********************************************************************

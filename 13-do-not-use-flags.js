@@ -1,4 +1,4 @@
-// Don't Use Flags
+// Don't use flags as function parameters
 
 
 // Bad
@@ -30,3 +30,12 @@ function saveJpegImage(name) {
 function savePngImage(name) {
     fs.create(`./png/${name}`);
 }
+
+
+function createFile(name, temp) {
+    if (temp) {
+      fs.create(`./temp/${name}`);
+    } else {
+      fs.create(name);
+    }
+  }
